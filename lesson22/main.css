@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     margin: 0 auto;
+     max-width: 1200px;
+}
+
+a, li, ul {
+     list-style: none;
+     text-decoration: none;
+     color: inherit;
+     text-transform: capitalize;
+}
+
+button {
+     border: none;
+     outline: none;
+}
+
+/* Header ssection */
+.header {
+     padding: 30px 0;
+}
+
+.header-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.row {
+     display: flex;
+     gap: 50px;
+}
+
+.logo {
+     color: #495567;
+     font-size: 32px;
+     font-family: Lexend deca;
+     font-weight: 600;
+}
+.nav {
+     display: flex;
+     align-items: center;
+     gap: 40px;
+}
+
+.nav a {
+     color: #939CAA;
+     font-size: 15px;
+     font-weight: 700;
+     font-family: Lexend deca;
+}
+
+.main-btn {
+     background-color: #fcb72b;
+     padding: 14px 39px;
+     color: #fff;
+     margin-right: 30px;
+     font-size: 15px;
+     font-family: space mono;
+     font-weight: 700;
+     width: 200px;
+     text-align: center;
+}
+
+.main-btn:hover {
+     color: #fcb72b;
+     background-color: #fff;
+     border: 1px solid #fcb72b;
+     transition: all .3s ease;
+     cursor: pointer;
+}
+
+/* Home */
+.home-bg {
+     background: url(./img/Bitmap.png) #2F3B59 no-repeat center;
+     opacity: 0.75;
+}
+
+.home-content {
+     padding-top: 153px;
+}
